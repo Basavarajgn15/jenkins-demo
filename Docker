@@ -1,1 +1,5 @@
-CMD ["echo", "Hello from Jenkins Docker Build"]
+FROM node:18
+WORKDIR /app
+COPY . .
+RUN npm install
+CMD ["npm", "start"]
