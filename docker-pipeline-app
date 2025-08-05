@@ -1,7 +1,1 @@
-git init
-git remote add origin https://github.com/your-username/your-repo-name.git
-echo "Hello from Docker" > index.html
-echo -e "FROM nginx:alpine\nCOPY . /usr/share/nginx/html" > Dockerfile
-git add .
-git commit -m "Initial commit"
-git push -u origin main
+
